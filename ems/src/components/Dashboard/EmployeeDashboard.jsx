@@ -7,6 +7,7 @@ function EmployeeDashboard() {
       <div className='p-10 bg-[#1C1C1C]'>
         <Header/>
         {/* Dashboard Content */}
+        
       </div>
   )
 }
