@@ -3,9 +3,8 @@ import React from 'react'
 function Header() {
   return (
     <div className='flex items-end justify-between'>
-        <h1>Hello <br /> Abhinav👋 </h1>
-        <button>login</button>
-        <button>logout</button>
+        <h1 className='text-2xl font-medium'>Hello <br /> <span className='text-3xl font-semibold'>Abhinav👋</span> </h1>
+        <button className='bg-red-600 text-white px-5 py-2 rounded-sm'>log out</button>
     </div>
   )
 }
