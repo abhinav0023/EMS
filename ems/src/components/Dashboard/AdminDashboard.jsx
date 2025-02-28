@@ -5,6 +5,7 @@ function AdminDashboard() {
   return (
     <div>
         <Header/>
+        {/* main code here */}
     </div>
   )
 }
