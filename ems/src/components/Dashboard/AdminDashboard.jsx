@@ -5,6 +5,7 @@ function AdminDashboard() {
   return (
     <>
         <Header/>
+        {/* working on main component */}
     <div className='flex items-center justify-center  h-screen w-full p-10'>
         <div>
           <form className='flex flex-col items-start justify-between '>
