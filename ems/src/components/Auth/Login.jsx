@@ -10,7 +10,7 @@ function Login() {
     console.log("Hello guys, form submitted!");
     console.log(email);
     console.log(password);
-// reset after submission
+    // reset after submission
     setEmail("");
     setPassword("");
   };
@@ -24,9 +24,9 @@ function Login() {
             }}
             className="border-2 p-4 flex flex-col rounded-3xl items-center justify-center h-[300px] bg-gray-400  "
           >
-        <h3 className="text-xl mb-6 font-bold text-center text-black font-mono">
-          EMS - Login
-        </h3>
+            <h3 className="text-2xl mb-6 font-extrabold text-center text-gray-800 font-mono tracking-wide">
+              EMS - LOGIN
+            </h3>
             <input
               value={email}
               onChange={(e) => setEmail(e.target.value)}
