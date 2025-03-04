@@ -22,13 +22,16 @@ function Login() {
             onSubmit={(e) => {
               submitHandler(e);
             }}
-            className="border-2 p-4 flex flex-col rounded-3xl items-center justify-center"
+            className="border-2 p-4 flex flex-col rounded-3xl items-center justify-center h-[300px] bg-gray-400  "
           >
+        <h3 className="text-xl mb-6 font-bold text-center text-black font-mono">
+          EMS - Login
+        </h3>
             <input
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="text-black border-2 h-2 bg-grey-600 border-red-600 py-4 px-3 my-2 rounded-full outline-none placeholder:text-black"
+              className="text-black border-2 h-2 bg-grey-600 border-gray-600 py-4 px-3 my-2 placeholder:text-sm rounded-full outline-none  placeholder:text-gray-400"
               type="email"
               placeholder="enter your email"
             />
@@ -36,11 +39,11 @@ function Login() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-              className="text-black border-2 h-2 border-red-600 py-4 px-3 rounded-full outline-none placeholder:text-black "
+              className="text-black border-2 h-2 border-gray-600 py-4 px-3 rounded-full outline-none placeholder:text-gray-400 placeholder:text-sm "
               type="password"
               placeholder="enter password"
             />
-            <button className="text-white my-4 border-2 h-9 border-blue-600 px-3 rounded-full outline-none placeholder:text-black ">
+            <button className="text-sm my-2 mt-9 bg-green-200 text-gray-800 font-serif border-2 h-9 border-gray-900 px-3 rounded-full outline-none ">
               Please Login
             </button>
           </form>
