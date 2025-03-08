@@ -6,8 +6,8 @@ function App() {
   return (
     <>
     {/* <Login/> */}
-    <EmployeeDashboard/>
-    {/* <AdminDashboard/> */}
+    {/* <EmployeeDashboard/> */}
+    <AdminDashboard/>
     </>
   )
 }
