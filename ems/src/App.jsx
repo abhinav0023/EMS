@@ -8,8 +8,6 @@ function App() {
     {/* <Login/> */}
     {/* <EmployeeDashboard/> */}
     <AdminDashboard/>
-    // start working on context api 
-    
     </>
   )
 }
